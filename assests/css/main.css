@@ -68,7 +68,7 @@ img{
 }
 
 button{
-    background-color: grey;
+    background-color: black;
     width: 100%;
     border: none;
     color: white;
@@ -76,5 +76,91 @@ button{
 }
 
 button:hover{
-    background-color: black;
+    background-color: grey;
+}
+
+
+.content-sidebar{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+.col-2{
+    display: inline-flex;
+    align-content: center;
+
+}
+
+.col-2 img{
+    width: 35%;
+    height: 20%;
+}
+ .content-sidebar > *:nth-child(1){
+    flex: 1 1 70%;
+ }
+ .content-sidebar > *:nth-child(2){
+    flex: 1 1 30%;
+ }
+
+ .main{   
+    background-color: lightgray;
+    height: 100%;
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.main h1{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    flex: 1 0 350px;
+    max-width: 450px;
+    overflow: hidden;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 3px 3px 14px rgba(255, 155, 5,0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1rem;
+    transition: all 200ms ease-in-out;
+}
+ .card:hover{
+    transform: translateY(-1rem);
+    box-shadow: 3px 3px 17px rgba(255, 155, 5,0.8);
+ }
+
+.card-img{
+    flex: 0 0 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 16px;
+}
+.card-content{
+    padding:1rem;
+}
+.card-title{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-left: 16px;
+    padding: 8px;
+}
+
+.card-des{
+    padding: 8px;
 }
