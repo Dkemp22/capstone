@@ -106,7 +106,7 @@ button:hover{
  .main{   
     background-color: lightgray;
     height: 100%;
-    padding: 2rem 5rem 2rem 5rem;
+    padding: 2rem 5rem;
 }
 
 .main h1{
@@ -163,4 +163,42 @@ button:hover{
 
 .card-des{
     padding: 8px;
+}
+
+.thesis-main-container h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+.thesis-container{
+    display: flex;
+}
+
+.thesis-main{
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex:1;
+}
+
+.thesis-sidebar{
+    flex: 0 0 40%;
+    display: flex;
+    flex:wrap;
+}
+
+.thesis-sidebar img{
+    width: 35%;
+    height: auto;
+}
+.img-box{
+    width: 300px;
+}
+
+.img-box img{
+    width:100%;
+    flex: 0 0 300px;
+}
+.info-box{
+    padding: 1rem;
 }

@@ -38,8 +38,8 @@
 
     <!----hero section-->
 
-    <div class="hero">
-        <div class="content-sidebar">
+    <div class="hero"> <!---parent--->
+        <div class="content-sidebar"> <!----Child--->
             <div class = "col-1">
                 <img id="hero-img" src="assests/images/information-main.jpg" alt="">
                 <h1>It dosen't hurt to keep praticing</h1>
@@ -64,29 +64,29 @@
             <a href="#" class="card">
                 <div class="card-img" style="background-image: url('assests/images/course-software.jpg');"></div>
                 <div class="card-content">
-                    <div class="card-title">Software Enginnering</div>
-                    <div class="card-des">Webdevelopment,App development,ITO,APIs</div>
+                <div class="card-title">Software Enginnering</div>
+                <div class="card-des">Webdevelopment,App development,ITO,APIs</div>
                 </div> 
             </a>
             <a href="#" class="card">
                 <div class="card-img" style="background-image: url('assests/images/course-computer-art.jpg');"></div>
                 <div class="card-content">
-                    <div class="card-title">Computer Art</div>
-                    <div class="card-des">Imaging &amp; Design,Web Design,Motion Graphics &amp; Visual Effects,Computer Animation</div>
+                <div class="card-title">Computer Art</div>
+                <div class="card-des">Imaging &amp; Design,Web Design,Motion Graphics &amp; Visual Effects,Computer Animation</div>
                 </div> 
             </a>
             <a href="" class="card">
                 <div class="card-img" style="background-image: url('assests/images/course-design.jpg');"></div>
                 <div class="card-content">
-                    <div class="card-title">Design</div>
-                    <div class="card-des">User Experince Design, User Research,Visual Design</div>
+                <div class="card-title">Design</div>
+                <div class="card-des">User Experince Design, User Research,Visual Design</div>
                 </div> 
                 </a>
                 <a href="" class="card">
                     <div class="card-img" style="background-image: url('assests/images/course-data.jpg');"></div>
                     <div class="card-content">
-                        <div class="card-title">Data</div>
-                        <div class="card-des">Data Science, Big Data ,SQL, Data Vosialization</div>
+                    <div class="card-title">Data</div>
+                    <div class="card-des">Data Science, Big Data ,SQL, Data Vosialization</div>
                     </div> 
                 </a>
                 <a href="" class="card">
@@ -106,5 +106,38 @@
         </div>
     </div>  
     
+
+    <!----Thesis Section-->
+    <div class="thesis-main-container">
+        <h1>Thesis Exhibt</h1>
+        <div class="thesis-container"> <!----Parent class-->
+
+            <section class="thesis-main"> <!----Child class-->
+                <video video controls autoplay loop  width=100% src="assests/videos/thesis.mp4"></video>
+                <h2>Reimagine Urban</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum similique impedit iure.</p>
+            </section>
+
+            <aside class="thesis-sidebar"> <!---parent class-->
+                <div class="thesis-child">
+                    <div class="img-box">
+                        <img src="assests/images/thesis-fisma.jpg" alt="">
+                    </div>
+                    <div class="info-box">
+                        <h3>Fisma:Design and Prototype</h3>
+                        <p>Design showcase of new prototype project</p>
+                    </div>
+                <div class="thesis-child">
+                    <div class="img-box">
+                        <img src="assests/images/thesis-fisma.jpg" alt="">
+                    </div>
+                    <div class="info-box">
+                        <h3>Fisma:Design and Prototype</h3>
+                        <p>Design showcase of new prototype project</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
 </body>
 </html>
