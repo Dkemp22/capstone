@@ -15,12 +15,19 @@
         <img class="logo" src="assests/images/ic-logo.svg" alt="Company Logo">
         <nav class="nav">
             <ul>
-                <li><a href="#">On Campus</a></li>
-                <li><a href="#">Online</a</li>
-                <li><a href="#">or companies</a></li>
-                <li><a href="#">Sign In</a></li>
+                <li id="text"><a href="#">On Campus</a></li>
+                <li id="text"><a href="#">Online</a</li>
+                <li id="text"><a href="#">or companies</a></li>
+                <li id="text"><a href="#">Sign In</a></li>
             </ul>
         </nav>
+
+        <div class="mobile">
+            <a><img src="assests/images/ic-on-campus.svg" alt=""></a></li>
+            <a><img src="assests/images/ic-online.svg" alt=""></a></li>
+            <a><img src="assests/images/ic-login.svg" /></a>
+        </div>
+
     </header>
 
     <!---Banner-->
@@ -39,21 +46,50 @@
     <!----hero section-->
 
     <div class="hero"> <!---parent--->
-        <div class="content-sidebar"> <!----Child--->
-            <div class = "col-1">
+        <div class="hero-container"> <!----Child--->
+
+            <div class = "hero-main">
                 <img id="hero-img" src="assests/images/information-main.jpg" alt="">
+                <img id="hero-img-mobile" src="assests/images/information-guest-lecture-mobile.jpg" alt="">
                 <h1>It dosen't hurt to keep praticing</h1>
                 <p>"Tempora nobis vitae ex quasi ullam placeat delectus conseinventore enim, magnam perspiciatis cumque assumenda asperiores dignissimos temporibus."</p>
                 <p>Emanuel, Sr Strategist at Hiring.com</p>
             </div>
-            <div class="col-2">
-                <img src="assests/images/information-orientation.jpg" alt="">
-                <div class="col-txt">
-                    <h1>Orientation date</h1>
-                    <p>Tue 10/11 &amp; Wed 10/12: 8am - 3pm</p>
-                    <a href="#">Read More</a>
-                </div>
-            </div> 
+
+            <aside class="hero-sidebar">
+
+                <div class="hero-child">
+                    <img src="assests/images/information-orientation.jpg" alt="">
+                    <img id="hero-img-mobile" src="assests/images/information-orientation-mobile.jpg" alt="">
+                    <div class="col-txt">
+                        <h1>Orientation date</h1>
+                        <p>Tue 10/11 &amp; Wed 10/12: 8am - 3pm</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div> 
+
+                <div class="hero-child">
+                    <img src="assests/images/information-campus.jpg" alt="">
+                    <img id="hero-img-mobile" src="assests/images/information-campus-mobile.jpg" alt="">
+                    <div class="col-txt">
+                        <h1>Our Campus</h1>
+                        <p>Find which campus is close to you</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div> 
+
+                <div class="hero-child">
+                    <img src="assests/images/information-guest-lecture.jpg" alt="">
+                    <img id="hero-img-mobile" src="assests/images/information-guest-lecture-mobile.jpg" alt="">
+                    <div class="col-txt">
+                        <h1>Our guest Lecture</h1>
+                        Join a key note with Olive Sack <br>
+                            about music in medical treatment</br></p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div> 
+
+            </aside>
         </div>
     </div>
 
@@ -119,14 +155,7 @@
             </section>
 
             <aside class="thesis-sidebar"> <!---parent class-->
-                <div class="thesis-child">
-                    <div class="img-box">
-                        <img src="assests/images/thesis-fisma.jpg" alt="">
-                    </div>
-                    <div class="info-box">
-                        <h3>Fisma:Design and Prototype</h3>
-                        <p>Design showcase of new prototype project</p>
-                    </div>
+
                 <div class="thesis-child">
                     <div class="img-box">
                         <img src="assests/images/thesis-fisma.jpg" alt="">
@@ -136,8 +165,32 @@
                         <p>Design showcase of new prototype project</p>
                     </div>
                 </div>
+
+                <div class="thesis-child">
+                    <div class="img-box">
+                        <img src="assests/images/thesis-now-and-then.jpg" alt="">
+                    </div>
+                    <div class="info-box">
+                        <h3>Now and Then</h3>
+                        <p>Research and Study about New York</p>
+                    </div>
+                </div>
             </aside>
         </div>
     </div>
+
+    <!---Footer Section-->
+
+    <footer>
+        <div class="footer-content">
+            <p> &copy; 2016 Colomar Academy. All rights reserved</p>
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#"> Privacy</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
 </body>
 </html>
